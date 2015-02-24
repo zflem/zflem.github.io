@@ -26,7 +26,6 @@ clear:both;
 	float: left;
 	min-height: 1px;
 	width: 8.33%;
-	vertical-align: middle;
 	/*-- gutter --*/
 	padding: 12px;
 }
@@ -91,4 +90,27 @@ clear:both;
 /*-- general stylings --*/
 a {
 	text-decoration: none;
+}
+
+/*-- centering method --*/
+
+/* This parent can be any width and height */
+.block {
+  text-align: center;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+.centered {
+  display: inline-block;
+  vertical-align: middle;
 }
