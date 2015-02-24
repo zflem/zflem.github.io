@@ -26,6 +26,7 @@ clear:both;
 	float: left;
 	min-height: 1px;
 	width: 8.33%;
+	vertical-align: middle;
 	/*-- gutter --*/
 	padding: 12px;
 }
@@ -37,8 +38,6 @@ clear:both;
 	text-align: center;
 	font-size: 24px;
 	font-family: Raleway, Arial, sans-serif;
-	margin-left: 50px;
-	margin-top: 100px;
 }
 
 .col-1 {
