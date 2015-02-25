@@ -71,7 +71,6 @@ clear:both;
 
 .col-8 {
 	width: 66.64%;
-	margin-top: 10%;
 }
 
 .col-9 {
@@ -93,4 +92,16 @@ clear:both;
 /*-- general stylings --*/
 a {
 	text-decoration: none;
+}
+
+/** centering method --*/
+.parent {
+	position: relative;
+}
+
+.child {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
