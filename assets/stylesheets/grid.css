@@ -101,6 +101,19 @@ a {
 	text-decoration: none;
 }
 
+/** Responsive font sizing **/
+@media screen and (max-width: 1200px) {
+	p { font-size: 3em; }
+}
+
+@media screen and (max-width: 900px) {
+	p { font-size: 2em; }
+}
+
+@media screen and (max-width: 600px) {
+	p { font-size: 1em; }
+}
+
 /** centering method --*/
 .parent {
 	position: relative;
