@@ -88,42 +88,43 @@ clear:both;
 }
 
 /*-- general stylings --*/
-body {
-	font-family: Raleway, Arial, sans-serif;
-	font-size: 62.5%;
-}
-
-p {
-	font-size: 3em;
-}
-
 a {
 	text-decoration: none;
 }
 
+/*-- font stylings (assumes body's default font size is 16px, thus: 16*Nem --*/
+body {
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 100%
+}
+
+p {
+	font-size: 1.75em;
+}
+
 /** Responsive font sizing **/
 @media screen and (max-width: 1200px) {
-	p { font-size: 3em; }
+	p { font-size: 1.75em; }
 }
 
 @media screen and (max-width: 1050px) {
-	p { font-size: 2.75em; }
+	p { font-size: 1.50em; }
 }
 
 @media screen and (max-width: 1024px) {
-	p { font-size: 2.25em; }
+	p { font-size: 1.25em; }
 }
 
 @media screen and (max-width: 960px) {
-	p { font-size: 2em; }
+	p { font-size: 1em; }
 }
 
 @media screen and (max-width: 864px) {
-	p { font-size: 1.75em;}
+	p { font-size: 1em;}
 }
 
 @media screen and (max-width: 768px) {
-	p { font-size: 1.25em; }
+	p { font-size: 1em; }
 }
 
 @media screen and (max-width: 600px) {
