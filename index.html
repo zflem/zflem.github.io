@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="assets/stylesheets/normalize.css">
-		<link rel="stylesheet" type="text/css" href="assets/stylesheets/grid.css">
-		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-		<title>Zane Fleming</title>
-	</head>
-	<body>
-		<div class="grid-container outline">
-			<div class="row">
-				<div class="col-6 child">
-					<p>Hi, my name is <strong>Zane Fleming</strong>! I am learning HTML/CSS, and this website is my second effort at a personal website with a minimalist theme. <br><br>This website will be an ongoing project. My plans for this website is to think about typographical + visual improvements to this version, and hopefully sketch another version of this website to make room for more stuff.<br><br>I am currently reading <a href="http://www.amazon.com/Starting-Strength-3rd-Mark-Rippetoe/dp/0982522738">Starting Strength</a> by Mark Rippetoe, watching <a href="http://en.wikipedia.org/wiki/Anthony_Bourdain:_Parts_Unknown">Anthony Bourdain: Parts Unknown</a>, and exploring bicycling as a hobby in my free time.<br><br>Just hit me up at <a href="mailto:zafleming@gmail.com">zafleming@gmail.com</a>, <a href="https://twitter.com/zflem">twitter/zflem</a>, and/or <a href="https://github.com/zflem">github/zflem</a>.
-					</p>
-				</div>
-			</div>
-		</div>
-	</body>
+<head>
+
+  <!-- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>Zane Fleming</title>
+  <meta name="description" content="Personal Page">
+  <meta name="author" content="Zane Fleming">
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+  <link rel="stylesheet" href="assets/stylesheets/main.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<!-- Primary Page Layout -->
+<body class="container">
+  <!-- Header -->
+  <header class="row">
+    <section class="twelve.columns">
+      <h1 id="logo">Zane Fleming</h1>
+    </section>
+    <!-- Navbar -->
+    <nav class="twelve.columns">
+      <ul>
+        <li><a href="index.html#about"><button>About</button></a></li>
+        <li><a href="index.html#convo"><button>Convo</button></a></li>
+        <li><a href="index.html#resume"><button>Resume</button></a></li>
+        <li><a href="index.html#contact"><button>Contact</button></a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- About/Convo Row -->
+  <section class="row">
+    <!-- About box -->
+    <article class="one-half.column u-pull-left">
+      <h5 id="about">About</h5>
+      <p>I'm just a dude here trying to make sense of HTML and CSS.</p>
+    </article>
+    <!-- Convo box -->
+    <article class="one-half.column u-pull-right">
+      <h5 id="convo">Convo</h5>
+      <p>I work part-time as an Expert for this cool company called Convo...</p>
+    </article>
+  </section>
+  <!-- Resume/Contact Row -->
+  <section class="row">
+    <!-- Resume box -->
+    <article class="one-half.column u-pull-left">
+      <h5 id="resume">Resume</h5>
+      <p>Lemme throw my resume at you...</p>
+    </article>
+    <!-- Contact box -->
+    <article class="one-half.column u-pull-right">
+      <h5 id="contact">Contact</h5>
+      <p>Please make friends with me on...</p>
+    </article>
+  </section>
+  <!-- Footer -->
+  <footer class="row">
+    <!-- Back to Top button -->
+    <section class="twelve.columns">
+      <a href="#logo"><button class="backtotop">Back to Top</button></a>
+    </section>
+  </footer>
+</body>
+</html>
